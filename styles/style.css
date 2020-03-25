@@ -106,11 +106,13 @@
     font-weight: bold;
 }
 
-.two-columns__paragraf :last-child{
+.two-columns__paragraf {
     margin-bottom: 30px;
     margin-top: 0;
 }
-
+.two-columns__paragraf:last-child {
+    margin-bottom: 0;
+}
 .digits {
     display: flex;
     flex-direction: column;
@@ -316,3 +318,4 @@
     height: 16px;
     margin-right: 10px;
   }
+
