@@ -86,7 +86,7 @@
     width: 175px;
     line-height: 1.2;
     font-size: 18px;
-    color: royalblue;
+    color: #2f80ed;
     font-weight: normal;
     flex-direction: column;
     margin: 0;
@@ -106,7 +106,7 @@
     font-weight: bold;
 }
 
-.two-columns__paragraf{
+.two-columns__paragraf :last-child{
     margin-bottom: 30px;
     margin-top: 0;
 }
@@ -208,7 +208,7 @@
 }
 
 .kaufman {
-    background-color: black;
+    background-color: #1f1f1f;
     color: white;
     display: flex;
     flex-direction: column;
@@ -282,7 +282,6 @@
 }
 
 .footer__column_content_copyright {
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-basis: 711px;
